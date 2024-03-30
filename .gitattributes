@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+packages/next/bundles/** -text
+packages/next/compiled/** -text
+* linguist-vendored
+*.dart linguist-vendored=false
+*.css linguist-detectable=true
+*.js linguist-detectable=true
+*.java linguist-detectable=false
